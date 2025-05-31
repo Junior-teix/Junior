@@ -50,10 +50,10 @@ entryNum2 = tk.Entry(janela,font=fonte,width=largura,justify='right')
 entryNum2.grid(row=1,column=1,padx=valorPadx,pady=valorPady)
 
 #botoes
-buttonCalcular = tk.Button(janela,text='Adiçao',bg='gray',width= 30,command=somar)
+buttonCalcular = tk.Button(janela,text='Somar',bg='gray',width= 30,command=somar)
 buttonCalcular.grid(row=2,column=0,padx=valorPadx,pady=valorPady)
 
-buttonCalcular = tk.Button(janela,text='Subtraçao',bg='gray',width= 30,command=subtraçao)
+buttonCalcular = tk.Button(janela,text='Subtrair',bg='gray',width= 30,command=subtraçao)
 buttonCalcular.grid(row=2,column=1,padx=valorPadx,pady=valorPady)
 
 buttonCalcular = tk.Button(janela,text='Multiplicar',bg='gray',width= 30,command=multiplicaçao)
